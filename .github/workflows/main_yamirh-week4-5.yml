@@ -26,7 +26,6 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           JWT_SECRET: ${{ secrets.JWT_TESTING_SECRET }}
         run: |
-          cd SSSF-week4-5-starter/
           npm install
           npm run build --if-present
           # npm run test --if-present
